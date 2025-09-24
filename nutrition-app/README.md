@@ -2,11 +2,11 @@
 
 ### For Tailwind to work: 
 
-Added the following link in index.html:
+#### Added the following link in index.html:
 
 <script src="https://cdn.tailwindcss.com/3.4.16"></script> 
 
-Added the following code in 'App.css' & 'index.css':
+#### Added the following code in 'App.css' & 'index.css':
 
 @import "tailwindcss/preflight";
 @tailwind utilities;

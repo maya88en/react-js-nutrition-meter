@@ -1,3 +1,24 @@
+## Important Notes
+
+### For Tailwind to work: 
+
+Added the following link in index.html:
+
+<script src="https://cdn.tailwindcss.com/3.4.16"></script> 
+
+Added the following code in 'App.css' & 'index.css':
+
+@import "tailwindcss/preflight";
+@tailwind utilities;
+
+@theme {
+  --font-display: "Satoshi", "sans-serif";
+  --breakpoint-3xl: 1920px;
+      /* ... other custom configurations ... */
+    }
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
